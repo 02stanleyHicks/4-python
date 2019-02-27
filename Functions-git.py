@@ -41,12 +41,3 @@ print_number(23)
 
 
 
-#4.14.14: name and age
-#colton
-#2.18.19
-
-def name_and_age(name, age):
-    print ('\'hi,my name is',name, 'and I am',str(age), 'years old!')
-
-name_and_age('Mike', 33)
-name_and_age('Zane', 18)
