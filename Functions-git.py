@@ -19,3 +19,34 @@ print (x)
 print_something()
 
 
+4.14.7:print multiple times
+#colton hicks
+#2.19.19
+
+
+def print_mult_times(string,times):
+    for i in range(times):
+        print(string)
+print_mult_times('hey there computer scientist',7)
+#4.13.6: functions and Variavle, part 3
+#Colton Hicks
+#2.18.19
+
+def print_number(x):
+    print (x)
+
+print_number(13)
+print('\n')
+print_number(23)
+
+
+
+#4.14.14: name and age
+#colton
+#2.18.19
+
+def name_and_age(name, age):
+    print ('\'hi,my name is',name, 'and I am',str(age), 'years old!')
+
+name_and_age('Mike', 33)
+name_and_age('Zane', 18)
