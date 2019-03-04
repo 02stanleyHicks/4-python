@@ -41,3 +41,19 @@ print_number(23)
 
 
 
+#4.16.4 enter name and age using the try and eccept rule
+#Colton hicks
+#2.20.19
+
+name = input('enter your name: ')
+
+age = -1
+
+try:
+    age = int(input('Enter your age: '))
+except ValueError:
+    print('\n''that wasn\'t an intager for your age :(')
+print('\n''name:', name)
+print('age:',age)
+
+
