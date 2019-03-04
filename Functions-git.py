@@ -39,5 +39,16 @@ print_number(13)
 print('\n')
 print_number(23)
 
+#4.16.3 enter a number usning try and except
+#2.20.19
+#colton hicks
+
+
+try:
+    my_num = int(input('Enter an inerger:'))
+    print('Your number:', my_num)
+
+except ValueError:
+    print('\n''that was not an integer,:(')
 
 
