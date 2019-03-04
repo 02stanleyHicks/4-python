@@ -39,5 +39,12 @@ print_number(13)
 print('\n')
 print_number(23)
 
+#4.14.5 default parameter values
+#Colton Hicks
+#2.19.19
 
-
+def print_two_number(x,y=20):
+    print('first number:',x )
+    print('second number: '+ str(y))
+print_two_number(34, 45)
+print_two_number(78)
