@@ -48,3 +48,13 @@ def print_two_number(x,y=20):
     print('second number: '+ str(y))
 print_two_number(34, 45)
 print_two_number(78)
+#4.14.6: print sum
+#colton hicks
+#2.9.19
+
+
+
+def print_sum(x,y):
+    print(x + y)
+print_sum(46,62)
+
