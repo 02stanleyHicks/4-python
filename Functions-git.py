@@ -39,6 +39,7 @@ print_number(13)
 print('\n')
 print_number(23)
 
+
 #4.14.5 default parameter values
 #Colton Hicks
 #2.19.19
@@ -52,6 +53,35 @@ print_two_number(78)
 #colton hicks
 #2.9.19
 
+
+
+#4.16.3 enter a number usning try and except
+#2.20.19
+#colton hicks
+
+
+try:
+    my_num = int(input('Enter an inerger:'))
+    print('Your number:', my_num)
+
+except ValueError:
+    print('\n''that was not an integer,:(')
+
+
+#4.16.4 enter name and age using the try and eccept rule
+#Colton hicks
+#2.20.19
+
+name = input('enter your name: ')
+
+age = -1
+
+try:
+    age = int(input('Enter your age: '))
+except ValueError:
+    print('\n''that wasn\'t an intager for your age :(')
+print('\n''name:', name)
+print('age:',age)
 
 
 def print_sum(x,y):
