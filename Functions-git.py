@@ -88,3 +88,25 @@ def print_sum(x,y):
     print(x + y)
 print_sum(46,62)
 
+
+
+#Colton Hicks
+# 1.14.19
+
+my_number = 7
+print ("guess my number between 5 and 9 0w0")
+print ("")
+guess = int(input ("pwease make a guess OwO ;)"))
+
+while guess != my_number:
+    print("")
+    print ("You have guessed wong but twy agian OwO")
+    guess = int(input("Enter a new guess:"))
+
+print("")
+print("OWO you were right you are my new senpie ;))))) I wub you")
+
+if guess == my_number:
+    print ("OWO you were right you are my new senpie ;))))) I wub you")
+else:
+    print("You have guessed wrong and you shall be gone expelled from this earth")
