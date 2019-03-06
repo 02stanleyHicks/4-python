@@ -88,3 +88,10 @@ def print_sum(x,y):
     print(x + y)
 print_sum(46,62)
 
+#program tracing
+#colton hicks
+x = 12
+
+while x > 5:
+    print(x)
+    x = x - 2
