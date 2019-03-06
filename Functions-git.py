@@ -90,6 +90,7 @@ print_sum(46,62)
 
 
 
+
 #Colton Hicks
 # 1.14.19
 
@@ -110,3 +111,12 @@ if guess == my_number:
     print ("OWO you were right you are my new senpie ;))))) I wub you")
 else:
     print("You have guessed wrong and you shall be gone expelled from this earth")
+
+#program tracing
+#colton hicks
+x = 12
+
+while x > 5:
+    print(x)
+    x = x - 2
+
